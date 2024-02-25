@@ -23,17 +23,17 @@ const Subscribe = () => {
               </p>
 
               <div className="  flex justify-center">
-                <div class="w-full   mt-8 bg-transparent border rounded-lg lg:max-w-sm dark:border-gray-700 focus-within:border-[#000] focus-within:ring focus-within:ring-blue-300  focus-within:ring-opacity-40">
-                  <form class="flex flex-col lg:flex-row">
+                <div className="w-full   mt-8 bg-transparent border rounded-lg lg:max-w-sm dark:border-gray-700 focus-within:border-[#000] focus-within:ring focus-within:ring-blue-300  focus-within:ring-opacity-40">
+                  <form className="flex flex-col lg:flex-row">
                     <input
                       type="email"
                       placeholder="Enter your email address"
-                      class="flex-1 capitalize h-10 px-4 py-2 m-1 text-gray-700 placeholder-gray-400 bg-transparent border-none appearance-none dark:text-gray-200 focus:outline-none focus:placeholder-transparent focus:ring-0"
+                      className="flex-1 capitalize h-10 px-4 py-2 m-1 text-gray-700 placeholder-gray-400 bg-transparent border-none appearance-none dark:text-gray-200 focus:outline-none focus:placeholder-transparent focus:ring-0"
                     />
 
                     <button
                       type="button"
-                      class="h-10 px-4 py-2 m-1 text-white transition-colors duration-300 transform   hover:bg-blue-400 focus:outline-none bg-[#F55F1D] rounded-lg"
+                      className="h-10 px-4 py-2 m-1 text-white transition-colors duration-300 transform   hover:bg-blue-400 focus:outline-none bg-[#F55F1D] rounded-lg"
                     >
                       Subscribe
                     </button>

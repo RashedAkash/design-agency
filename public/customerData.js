@@ -1,4 +1,4 @@
-const data = [
+export const data = [
   {
     img: "/man.png",
     number: 360452,

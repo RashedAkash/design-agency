@@ -44,7 +44,7 @@ const Footer = () => {
           </p>
         </nav>
       </footer>
-      <footer className="footer font-sans  p-4  text-base-content">
+      <footer className="footer font-sans  pl-10  text-base-content">
         <aside>
           <p className="text-white text-xl font-medium">
             Copyright Design Agency 2022
