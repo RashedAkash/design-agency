@@ -3,3 +3,6 @@
 @tailwind utilities;
 
 
+.poppins{
+  font-family: var(--font-poppins);
+}

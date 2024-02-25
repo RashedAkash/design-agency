@@ -10,7 +10,7 @@ const Subscribe = () => {
         <div className="container relative flex flex-col min-h-screen px-6 py-8 mx-auto">
           <section className="flex items-center flex-1">
             <div className="flex flex-col w-full ">
-              <h1 className="text-xl text-[#20B15A] font-medium text-center ">
+              <h1 className="text-xl poppins text-[#20B15A] font-medium text-center ">
                 SUBSCRIBE
                 
               </h1>
