@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const Banner = () => {
@@ -23,12 +24,39 @@ const Banner = () => {
               </div>
             </div>
 
-            <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
-              <img
-                className="w-full h-full lg:max-w-3xl"
-                src="https://merakiui.com/images/components/Catalogue-pana.svg"
-                alt="Catalogue-pana.svg"
-              />
+            <div className=" w-full mt-6 lg:mt-0 lg:w-1/2">
+              <div className=" grid grid-cols-12 gap-4 mb-3">
+                <Image
+                  className=" col-span-8"
+                  src="/ban1.png"
+                  alt="ban1"
+                  width={408}
+                  height={271}
+                />
+                <Image
+                  className=" col-span-4"
+                  src="/ban2.png"
+                  alt="ban1"
+                  width={180}
+                  height={250}
+                />
+              </div>
+              <div className=" grid grid-cols-12 gap-4">
+                <Image
+                  className=" col-span-5"
+                  src="/ban3.png"
+                  alt="ban1"
+                  width={246}
+                  height={164}
+                />
+                <Image
+                  className=" col-span-7"
+                  src="/ban4.png"
+                  alt="ban1"
+                  width={365}
+                  height={145}
+                />
+              </div>
             </div>
           </div>
         </div>
