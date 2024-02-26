@@ -1,9 +1,16 @@
-import React from 'react';
+import PageTitle from '@/components/PageTitle';
+import Testimonial from '@/components/Testimonial/Testimonial';
+
 
 const page = () => {
   return (
     <div>
-      Testimonial
+      <PageTitle
+        img="/teambg.png"
+        title="Testimonial List"
+        page="Testimonial List"
+      />
+      <Testimonial />
     </div>
   );
 };
