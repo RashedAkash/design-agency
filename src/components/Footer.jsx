@@ -46,7 +46,7 @@ const Footer = () => {
       </footer>
       <footer className="footer font-sans  pl-10  text-base-content">
         <aside>
-          <p className="text-white text-xl font-medium">
+          <p className="text-white text-[20px] font-medium">
             Copyright Design Agency 2022
           </p>
         </aside>
