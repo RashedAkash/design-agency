@@ -4,8 +4,8 @@ import React from 'react';
 const Banner = () => {
   return (
     <div>
-      <header className="pb-60 pt-32 dark:bg-[#D7F5DC]">
-        <div className="container px-6 py-16 mx-auto">
+      <header className="pb-56 pt-32 dark:bg-[#D7F5DC]">
+        <div className="container px-6 py-6 mx-auto">
           <div className="items-center lg:flex">
             <div className="w-full lg:w-1/2">
               <div className="lg:max-w-lg">
