@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="light">
       <body className={poppins.className}>
-        <div className=" max-w-6xl mx-auto">
+        <div className=" max-w-7xl mx-auto">
           <Navbar />
           {children}
           <Subscribe />

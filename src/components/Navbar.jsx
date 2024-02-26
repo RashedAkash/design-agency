@@ -2,13 +2,35 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useEffect, useState } from 'react';
 
 
 const Navbar = () => {
+   const [sticky, setSticky] = useState(false);
   const pathname = usePathname();
+   useEffect(() => {
+     const handleScroll = () => {
+       const offset = window.scrollY;
+       if (offset > 0) {
+         setSticky(true);
+       } else {
+         setSticky(false);
+       }
+     };
+     window.addEventListener("scroll", handleScroll);
+     return () => {
+       window.addEventListener("scroll", handleScroll);
+     };
+   }, []);
   return (
-    <div>
-      <div className="navbar">
+    <div className=" fixed left-0 right-0 top-0 max-w-screen-xl  mx-auto z-20">
+      <div
+        className={`navbar ${
+          sticky
+            ? "shadow-xl transition-all  bg-[#D7F5DC] duration-300 ease-in-out"
+            : ""
+        }`}
+      >
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
