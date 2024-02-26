@@ -1,5 +1,6 @@
 import Banner from '@/components/Banner';
 import Brand from '@/components/Brand';
+import Feature from '@/components/Feature';
 import Review from '@/components/Review';
 import WorkList from '@/components/WorkList';
 
@@ -11,6 +12,7 @@ const page = () => {
       <Brand />
       <WorkList />
       <Review />
+      <Feature />
      
     </div>
   );
