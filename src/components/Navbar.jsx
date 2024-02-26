@@ -1,6 +1,11 @@
-import React from 'react';
+"use client"
+import Image from 'next/image';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+
 
 const Navbar = () => {
+  const pathname = usePathname();
   return (
     <div>
       <div className="navbar bg-base-100">
@@ -27,48 +32,136 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Item 1</a>
+                <Link
+                  className={`link ${
+                    pathname === "/" ? "text-[#20B15A] " : " text-[#000] "
+                  } font-medium no-underline`}
+                  href="/"
+                >
+                  Home
+                </Link>
               </li>
               <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
+                <Link
+                  className={`link ${
+                    pathname === "/team" ? "text-[#20B15A] " : " text-[#000] "
+                  } font-medium no-underline`}
+                  href="/team"
+                >
+                  Team
+                </Link>
               </li>
               <li>
-                <a>Item 3</a>
+                <Link
+                  className={`link ${
+                    pathname === "/service"
+                      ? "text-[#20B15A] "
+                      : " text-[#000] "
+                  } font-medium no-underline`}
+                  href="/service"
+                >
+                  Service
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className={`link ${
+                    pathname === "/projects"
+                      ? "text-[#20B15A] "
+                      : " text-[#000] "
+                  } font-medium no-underline`}
+                  href="/projects"
+                >
+                  Projects
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className={`link ${
+                    pathname === "/testimonial"
+                      ? "text-[#20B15A] "
+                      : " text-[#000] "
+                  } font-medium no-underline`}
+                  href="/testimonial"
+                >
+                  Testimonials
+                </Link>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <a className="btn btn-ghost text-xl">
+            <Image
+              src="/DesignAGENCY.png"
+              alt="logo"
+              width={156}
+              height={30}
+              style={{
+                width: "auto",
+                height: "auto",
+              }}
+            />
+          </a>
         </div>
 
         <div className="navbar-end">
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
               <li>
-                <a>Item 1</a>
+                <Link
+                  className={`link ${
+                    pathname === "/" ? "text-[#20B15A] " : " text-[#000] "
+                  } font-medium no-underline`}
+                  href="/"
+                >
+                  Home
+                </Link>
               </li>
               <li>
-                <details>
-                  <summary>Parent</summary>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
-                  </ul>
-                </details>
+                {" "}
+                <Link
+                  className={`link ${
+                    pathname === "/team" ? "text-[#20B15A] " : " text-[#000] "
+                  } font-medium no-underline`}
+                  href="/team"
+                >
+                  Team
+                </Link>
               </li>
               <li>
-                <a>Item 3</a>
+                <Link
+                  className={`link ${
+                    pathname === "/service"
+                      ? "text-[#20B15A] "
+                      : " text-[#000] "
+                  } font-medium no-underline`}
+                  href="/service"
+                >
+                  Service
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className={`link ${
+                    pathname === "/projects"
+                      ? "text-[#20B15A] "
+                      : " text-[#000] "
+                  } font-medium no-underline`}
+                  href="/projects"
+                >
+                  Projects
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className={`link ${
+                    pathname === "/testimonial"
+                      ? "text-[#20B15A] "
+                      : " text-[#000] "
+                  } font-medium no-underline`}
+                  href="/testimonial"
+                >
+                  Testimonials
+                </Link>
               </li>
             </ul>
           </div>
