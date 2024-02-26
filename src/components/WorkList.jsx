@@ -4,7 +4,7 @@ import SingleWork from './SingleWork';
 
 const WorkList = () => {
   return (
-    <div>
+    <div className=' px-7'>
       <div>
         <SectionTitle
           text="We provide the Perfect Solution to your business growth"

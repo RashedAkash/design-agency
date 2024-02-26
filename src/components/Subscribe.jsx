@@ -7,7 +7,7 @@ const Subscribe = () => {
         
         className="w-full  bg-white "
       >
-        <div className="container relative flex flex-col py-24 px-6 mx-auto">
+        <div className="container relative flex flex-col py-16 px-6 mx-auto">
           <section className="flex items-center flex-1">
             <div className="flex flex-col w-full ">
               <h1 className="text-xl poppins text-[#20B15A] font-medium text-center ">
