@@ -15,6 +15,10 @@ const ReviewCard = ({dt}) => {
                   width={35}
                   height={35}
                   className="    "
+                  style={{
+                    width: "auto",
+                    height: "auto",
+                  }}
                 />
               </figure>
             </div>
