@@ -1,12 +1,13 @@
+import Banner from '@/components/Banner';
 import Brand from '@/components/Brand';
 import Review from '@/components/Review';
-import Subscribe from '@/components/Subscribe';
 import WorkList from '@/components/WorkList';
-import React from 'react';
+
 
 const page = () => {
   return (
     <div>
+      <Banner />
       <Brand />
       <WorkList />
       <Review />
