@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { featureData } from '../../public/FeatureData';import FeatureCard from './FeatureCard';
+import SectionTitle from './SectionTitle';
 
 
 const Feature = () => {
@@ -7,6 +8,10 @@ const Feature = () => {
     <div className="">
       <header className="bg-[#F0FDF4] ">
         <div className="container px-6 py-16 mx-auto">
+          <SectionTitle
+            text=" We provide the Perfect Solution to your business growth"
+            title="Featured Project"
+          />
           <div className="items-center lg:flex">
             <div className="w-full lg:w-1/2">
               <div className="lg:max-w-lg">
