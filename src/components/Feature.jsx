@@ -16,7 +16,13 @@ const Feature = () => {
             <div className="w-full lg:w-1/2">
               <div className="lg:max-w-lg">
                 <div className="flex  flex-col  ">
-                  <Image src="/Mask.png" alt="m" width={600} height={530} />
+                  <Image
+                    src="/Mask.png"
+                    alt="m"
+                    width={600}
+                    height={530}
+                    className="hover:scale-105 transition-all duration-300"
+                  />
                   <p className=" text-[#2E3E5C] text-[14px] mt-4">
                     App Design - June 20, 2022
                   </p>

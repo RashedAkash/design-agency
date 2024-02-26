@@ -4,7 +4,7 @@ import React from 'react';
 const TeamCard = ({t}) => {
   return (
     <div className=" relative">
-      <div className="card card-compact  bg-base-100 shadow-lg">
+      <div className="card card-compact hover:scale-105 transition-all duration-300  bg-base-100 shadow-lg">
         <figure>
           <Image src={t?.img} alt="team" width={390} height={390} />
         </figure>

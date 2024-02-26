@@ -5,6 +5,7 @@ const SingleWork = ({work}) => {
   return (
     <div className=" py-12 px-7">
       <Image
+        className="hover:scale-105 transition-all duration-300"
         src={work?.img}
         alt="img"
         width={100}
