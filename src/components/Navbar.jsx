@@ -187,13 +187,13 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <Link href="/login">
+          <Link href="">
             <button className="btn btn-outline border-[#20B15A] rounded-[10px] text-[#000] font-medium ">
               Login
             </button>
           </Link>
-          <Link href="/register">
-            <button className="btn ml-4 lg:ml-7 rounded-[10px] text-white bg-[#20B15A] font-medium ">
+          <Link href="">
+            <button className="btn ml-4 lg:ml-7 rounded-[10px] text-white bg-[#20B15A] font-medium hidden md:block ">
               Register
             </button>
           </Link>
