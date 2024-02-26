@@ -1,5 +1,6 @@
 import Image from 'next/image';
-import React from 'react';
+import { featureData } from '../../public/FeatureData';import FeatureCard from './FeatureCard';
+
 
 const Feature = () => {
   return (
@@ -20,11 +21,9 @@ const Feature = () => {
             </div>
 
             <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
-              <img
-                className="w-full h-full max-w-md"
-                src="https://merakiui.com/images/components/Email-campaign-bro.svg"
-                alt="email illustration vector art"
-              />
+              {
+               featureData?.map(fd=> <FeatureCard fd={fd} key={fd?.img} />) 
+            }
             </div>
           </div>
         </div>

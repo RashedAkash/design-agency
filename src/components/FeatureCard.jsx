@@ -1,6 +1,6 @@
 import React from 'react';
 
-const FeatureCard = () => {
+const FeatureCard = ({fd}) => {
   return (
     <div>
       

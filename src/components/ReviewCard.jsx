@@ -3,8 +3,8 @@ import React from 'react';
 
 const ReviewCard = ({dt}) => {
   return (
-    <div>
-      <div className="py-12    rounded-2xl bg-white shadow-md">
+    <div className="hover:-translate-y-5 transition-all duration-300">
+      <div className="py-12     rounded-2xl bg-white shadow-md">
         <div className="flex justify-center ">
           <div className="bg-[#D7F5DC] w-[100px] h-[100px] rounded-lg flex justify-center      ">
             <div>
