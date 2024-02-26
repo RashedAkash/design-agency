@@ -1,5 +1,6 @@
-import React from 'react';
+import { testimonialData } from '../../../public/TestimonialData';
 import SectionTitle from '../SectionTitle';
+import TestimonialCard from './TestimonialCard';
 
 const Testimonial = () => {
   return (
@@ -10,8 +11,10 @@ const Testimonial = () => {
           title="Testimonial List"
         />
       </div>
-      <div>
-
+      <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+        {
+          testimonialData?.map(test=> <TestimonialCard key={test?.des} test={test} />)
+}
       </div>
     </div>
   );
