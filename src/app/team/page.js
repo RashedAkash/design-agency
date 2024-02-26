@@ -6,7 +6,9 @@ const page = () => {
   return (
     <div>
       <PageTitle img="/teambg.png" title="Team" page="Team" />
-      <Team />
+      <div className='py-16'>
+        <Team />
+      </div>
     </div>
   );
 };
