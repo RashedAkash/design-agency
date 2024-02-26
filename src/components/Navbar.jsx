@@ -89,7 +89,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">
+          <Link href="/" className="btn btn-ghost text-xl">
             <Image
               src="/DesignAGENCY.png"
               alt="logo"
@@ -100,7 +100,7 @@ const Navbar = () => {
                 height: "auto",
               }}
             />
-          </a>
+          </Link>
         </div>
 
         <div className="navbar-end">
@@ -165,7 +165,16 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="btn">Button</a>
+          <Link href="">
+            <button className="btn btn-outline border-[#20B15A] rounded-[10px] text-[#000] font-medium ">
+              Login
+            </button>
+          </Link>
+          <Link href="">
+            <button className="btn ml-4 lg:ml-7 rounded-[10px] text-white bg-[#20B15A] font-medium ">
+              Register
+            </button>
+          </Link>
         </div>
       </div>
     </div>
