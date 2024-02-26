@@ -4,7 +4,7 @@ import Marquee from 'react-fast-marquee';
 
 const Brand = () => {
   return (
-    <div className=" py-7 -mt-32 mb-32 bg-white z-10 ">
+    <div className=" py-7 -mt-32 mb-24 bg-white z-10 ">
       <Marquee>
         <Image
           src="/logos_google.png"
