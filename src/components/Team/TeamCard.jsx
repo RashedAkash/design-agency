@@ -16,13 +16,42 @@ const TeamCard = ({t}) => {
       </div>
       <div className=" translate-y-[50%] -translate-x-[50%] absolute left-1/2 flex  bg-white py-5 px-4 rounded-full top-1/2">
         <div className=" border-r border-[#E3E3E3] pr-4 ">
-          <Image src="/f.png" alt="f" width={10} height={16} />
+          <Image
+            src="/f.png"
+            alt="f"
+            width={10}
+            height={16}
+            style={{
+              width: "auto",
+              height: "auto",
+            }}
+          />
         </div>
         <div className=" border-r border-[#E3E3E3] px-4 ">
-          <Image className=" " src="/t.png" alt="f" width={16} height={16} />
+          <Image
+            className=" "
+            src="/t.png"
+            alt="t"
+            width={16}
+            height={16}
+            priority={false}
+            style={{
+              width: "100%",
+              height: "100%",
+            }}
+          />
         </div>
         <div className="  pl-4 ">
-          <Image src="/i.png" alt="f" width={14} height={16} />
+          <Image
+            src="/i.png"
+            alt="i"
+            width={14}
+            height={16}
+            style={{
+              width: "auto",
+              height: "auto",
+            }}
+          />
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 
 const Banner = () => {
   return (
@@ -39,6 +39,10 @@ const Banner = () => {
                   alt="ban1"
                   width={180}
                   height={250}
+                  style={{
+                    width: "100%",
+                    height: "auto",
+                  }}
                 />
               </div>
               <div className=" grid grid-cols-12 gap-4">
