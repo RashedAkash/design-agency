@@ -4,7 +4,10 @@ import Feature from '@/components/Feature';
 import Review from '@/components/Review';
 import WorkList from '@/components/WorkList';
 
-
+export const metadata = {
+  title: "Design agency | Home",
+  description: "This is home page",
+};
 const page = () => {
   return (
     <div>

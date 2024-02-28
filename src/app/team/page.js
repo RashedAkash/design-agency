@@ -2,6 +2,10 @@ import PageTitle from '@/components/PageTitle';
 import Team from '@/components/Team/Team';
 ;
 
+export const metadata = {
+  title: "Design agency | team",
+  description: "This is team page",
+};
 const page = () => {
   return (
     <div>
